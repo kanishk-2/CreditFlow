@@ -52,10 +52,17 @@ While the application focuses on deployment stability, the development notebook 
 
 ---
 
+### 📂 Output-
+
+<img width="1297" height="744" alt="creditflow" src="https://github.com/user-attachments/assets/259c12d8-ae6c-4265-b30d-039323b4783a" />
+
+---
 ### 📂 Project Structure
 ```bash
 ├── loan_approval_data.csv      # Dataset
 ├── CrediFlow-system.ipynb.     # EDA & Model Selection
 ├── app.py                      # Main Streamlit Application
 ├── requirements.txt            # Dependencies
-└── README.md                   # Documentation
+└── README.md                   # Documentation 
+
+
