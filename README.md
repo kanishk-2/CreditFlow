@@ -2,6 +2,8 @@
 
 **CreditFlow** is a production-grade Machine Learning application designed to automate credit risk assessment. By leveraging historical financial data and demographic profiles, it predicts loan eligibility with high precision using a multi-model comparative approach.
 
+This is a production-ready ML system built with Python and Streamlit.It Automates credit risk assessment using Logistic Regression, KNN, and Naive Bayes to predict loan eligibility with high precision. Featuring robust data preprocessing and real-time inference.
+
 ---
 
 ### 🚀 Overview
@@ -13,12 +15,10 @@ In the modern fintech landscape, speed and accuracy in credit decisions are vita
 The system follows a strict ETL (Extract, Transform, Load) and ML lifecycle to ensure data integrity and model reliability.
 
 
-
 #### 1. Data Intelligence & EDA
 * **Feature Engineering:** Handling categorical variables via `OneHotEncoder` (dropping the first column to avoid the **Dummy Variable Trap**) and `LabelEncoder`.
 * **Statistical Imputation:** Filling numerical gaps with **Mean** and categorical gaps with **Most Frequent** strategies.
 * **Visualization:** Correlation heatmaps, distribution plots, and class balance analysis using `Seaborn` and `Matplotlib`.
-
 
 
 #### 2. The Modeling Engine
